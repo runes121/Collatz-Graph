@@ -6,7 +6,7 @@ y_val = []
 
 startTime: float = time.time()
 
-for i in range(80, 800):
+for i in range(15):
     print(f"Processing {i}")
     x = i
     step = 0
