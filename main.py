@@ -18,7 +18,7 @@ for i in range(15):
         else:
             x = (x * 3) + 1
             y_val.append((x * 3) + 1)
-    plt.plot(x_val, y_val, label=f"{i}", loc="")
+    plt.plot(x_val, y_val, label=f"{i}", loc="upper right")
     x_val.clear()
     y_val.clear()
 
