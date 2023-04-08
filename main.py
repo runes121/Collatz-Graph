@@ -1,16 +1,15 @@
 import time
 import matplotlib.pyplot as plt
 
-x_val = []
-y_val = []
+x_val = [] # Get a list ready to store the x values before plotting
+y_val = [] # Get a list ready to store the y values before plotting
 
-startTime: float = time.time()
+startTime: float = time.time() # Get the time before the application starts - Used to measure how long the calculations took.
 
 for i in range(15):
-    print(f"Processing {i}")
     x = i
     step = 0
-    while x != 1:
+    while x != 1: # If x == 1, then the number has completed its journey.
         step = step + 1
         x_val.append(step)
         if (x % 2) == 0:
